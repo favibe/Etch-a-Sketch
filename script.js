@@ -2,7 +2,7 @@ const container = document.querySelector("#container");
 const button = document.querySelector("#new");
 
 function grid(size) {
-    const squareSize = 500 / size;
+    const squareSize = 960 / size;
     for (let i = 0; i < size * size; i++) {
         const grid = document.createElement("div");
         grid.classList.add("grid");

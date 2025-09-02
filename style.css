@@ -8,8 +8,8 @@ body {
 #container {
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
-    width: 500px;
+    height: 960px;
+    width: 960px;
     border: 2px solid black;
 }
 button {
